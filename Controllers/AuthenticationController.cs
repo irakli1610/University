@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using Service.AuthService.Options;
 using Service.AuthService;
 using Data.POCO;
+using Data.Enums;
 
 namespace University.Controllers
 {
@@ -34,6 +35,29 @@ namespace University.Controllers
         {
             var response = await _authService.SignUp(request);
             return Ok(response);
+        }
+
+        [HttpPost("SignIn")]
+        public async Task<ActionResult> SignIn([FromBody] LoginRequest request)
+        {
+            try
+            {
+                var (Status, Jwt, Refresh) = await _authService.SignIn(request);
+                if (Status == AuthorizationStatus.Success)
+                {
+                    Response.Headers.TryAdd("token", Jwt);
+                    if (!string.IsNullOrEmpty(Refresh))
+                    {
+                        Response.Cookies.Append("token", Refresh, _defaultCookieOptions);
+                    }
+                    return Ok();
+                }
+                return Unauthorized();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
 

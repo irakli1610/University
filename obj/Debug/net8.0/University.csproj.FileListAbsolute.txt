@@ -149,3 +149,4 @@ C:\Users\irakl\Desktop\something else codes\University\bin\Debug\net8.0\Microsof
 C:\Users\irakl\Desktop\something else codes\University\bin\Debug\net8.0\Std.UriTemplate.dll
 C:\Users\irakl\Desktop\something else codes\University\bin\Debug\net8.0\Service.dll
 C:\Users\irakl\Desktop\something else codes\University\bin\Debug\net8.0\Service.pdb
+C:\Users\irakl\Desktop\something else codes\University\obj\Debug\net8.0\University.sourcelink.json

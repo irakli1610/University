@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\irakl\\Desktop\\something else codes\\University\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A208D509-83D4-42AD-BC59-B1A82A6E2811}|..\\Data\\Data.csproj|c:\\users\\irakl\\desktop\\something else codes\\data\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208D509-83D4-42AD-BC59-B1A82A6E2811}|..\\Data\\Data.csproj|c:\\users\\irakl\\desktop\\something else codes\\data\\database\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E201D2D-E4A9-4A29-97EE-6E5F313E0F63}|..\\Service\\Service.csproj|c:\\users\\irakl\\desktop\\something else codes\\service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irakl\\Desktop\\something else codes\\AuthDemoProject\\Service\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8C9F03-7128-4D9B-9163-4302F9AE991F}|University.csproj|c:\\users\\irakl\\desktop\\something else codes\\university\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8C9F03-7128-4D9B-9163-4302F9AE991F}|University.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +59,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\irakl\\Desktop\\something else codes\\Data\\Database\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Database\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\irakl\\Desktop\\something else codes\\Data\\Database\\AuthDbContext.cs",
+              "RelativeToolTip": "..\\Data\\Database\\AuthDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:02:55.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\irakl\\Desktop\\something else codes\\Data\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\irakl\\Desktop\\something else codes\\Data\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "..\\Data\\Models\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:58:22.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\irakl\\Desktop\\something else codes\\AuthDemoProject\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\AuthDemoProject\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\irakl\\Desktop\\something else codes\\AuthDemoProject\\Service\\AuthService.cs",
+              "RelativeToolTip": "..\\AuthDemoProject\\Service\\AuthService.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:45:03.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\irakl\\Desktop\\something else codes\\University\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\irakl\\Desktop\\something else codes\\University\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA5wCsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:33:36.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\irakl\\Desktop\\something else codes\\Service\\AuthService\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\AuthService\\AuthService.cs",
+              "ToolTip": "C:\\Users\\irakl\\Desktop\\something else codes\\Service\\AuthService\\AuthService.cs",
+              "RelativeToolTip": "..\\Service\\AuthService\\AuthService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwDsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:33:16.229Z",
+              "EditorCaption": ""
             }
           ]
         }
